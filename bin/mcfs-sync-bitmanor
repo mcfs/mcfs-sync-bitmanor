@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+# Copyright (c) Jinesh Jayakumar <jineshkj at gmail dot com>
+# License: LGPLv3 (http://opensource.org/licenses/lgpl-3.0.html)
+
+require 'rubygems'
+require 'mcfs/sync/bitmanor'
+
+McFS::Sync::BitManorApp.new.run! if $0 == __FILE__
